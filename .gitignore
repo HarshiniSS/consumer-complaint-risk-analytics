@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data files
+data/raw/
+data/processed/*.csv
+data/processed/*.parquet
+
+# Models
+models/*.pt
+models/*.pkl
+models/*.joblib
+
+# Environment
+.env
+
+# Mac
+.DS_Store
